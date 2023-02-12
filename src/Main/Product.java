@@ -11,6 +11,7 @@ public class Product {
         this.price = price;
 
         //System.out.println("Product Created");
+        System.out.println(name + " created");
 
 
 
