@@ -7,4 +7,10 @@ public class Person {
     int age;
     char gender;
 
+    //------Constructor-----
+
+    Person(){
+        System.out.println("Person Created");
+    }
+
 }
