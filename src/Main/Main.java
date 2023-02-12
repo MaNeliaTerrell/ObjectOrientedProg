@@ -24,8 +24,9 @@ public class Main {
 
         //Person per = new Person();
 
-        Product p = new Product(banana, 10);
-
+        Product p = new Product("banana", 10.50f);
+        Product p1 = new Product("banana", 10.50f); // create more than 1 object (obj 2)
+        Product p2 = new Product("banana", 10.50f); // (obj 3)
 
     }
 }
