@@ -9,7 +9,13 @@ public class Person {
 
     //------Constructor-----
 
-    Person(){
+    Person(String firstName, String lastName, char gender, int age) {
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+        this.age = age;
+
         System.out.println("Person Created");
     }
 

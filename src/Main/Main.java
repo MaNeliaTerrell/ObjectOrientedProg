@@ -28,5 +28,9 @@ public class Main {
         Product p1 = new Product("apple", 12.35f); // create more than 1 object (obj 2)
         Product p2 = new Product("lemon", 5.65f); // (obj 3)
 
+        Person per = new Person("Nelia", "Terrell", 'F', 44);
+
+        System.out.println(per.firstName);
+        System.out.println(per.lastName);
     }
 }
