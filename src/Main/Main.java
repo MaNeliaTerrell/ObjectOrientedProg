@@ -1,5 +1,6 @@
 package Main;
 
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
@@ -24,13 +25,30 @@ public class Main {
 
         //Person per = new Person();
 
-        Product p = new Product("banana", 10.50f);
-        Product p1 = new Product("apple", 12.35f); // create more than 1 object (obj 2)
-        Product p2 = new Product("lemon", 5.65f); // (obj 3)
+//        Product p = new Product("banana", 10.50f);
+//        Product p1 = new Product("apple", 12.35f); // create more than 1 object (obj 2)
+//        Product p2 = new Product("lemon", 5.65f); // (obj 3)
+//
+//        Person per = new Person("Nelia", "Terrell", 'F', 44);
+//
+//        System.out.println(per.firstName);
+//        System.out.println(per.lastName);
 
-        Person per = new Person("Nelia", "Terrell", 'F', 44);
+        Scanner s = new Scanner(System.in);
 
-        System.out.println(per.firstName);
-        System.out.println(per.lastName);
+            System.out.print("Flower Name: ");
+        String name = s.nextLine();
+            System.out.print("Color: ");
+        String color = s.nextLine();
+            System.out.print("Season: ");
+        String season = s.nextLine();
+            System.out.print("Category: ");
+        String category = s.nextLine();
+
+
+        Flower f = new Flower(name, color, season, category);
+
+
+
     }
 }
